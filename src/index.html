@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>laba 1 html</title>
 </head>
 <body>
     <h1>Заголовок первого уровня</h1>
@@ -257,70 +257,73 @@
         </table><br>
        <a href= "http://localhost:8080/about.html"><img src="images/yoda.jpg"></a><br>
 
-       <form action="/path-to-server-endpoint" method="post">
+       <form action="/path-to-server-endpoint" enctype="multipart/form-data" method="post">
+
         <label>Имя
-            <input type="text" name="name">
+          <input type="text" name="name">
         </label><br>
+
         <label>Фамилия
           <input type="text" name="family name">
-      </label><br>
-      <p><input type="file" name="f"><br>
+        </label><br>
+        <p>Фото<p>
+          <p><input type="file" name="photo"><br>
 
       <label>пароль
         <input type="password" name="password">        
-    </label><br>
+      </label><br>
 
-    <label>подтверждение пароля
-      <input type="password" name="confirm password">
-  </label><br>
+      <label>подтверждение пароля
+        <input type="password" name="confirm password">
+      </label><br>
 
-    <p><select size="5" multiple name="city[]">
-     <option disabled>Выберите город</option>
-     <option value="Москва">Москва</option>
-     <option selected value="Санкт-Петербург">Санкт-Петербург</option>
-     <option value="Мурманск">Мурманск</option>
-     <option value="Каллининград">Каллининград</option>
-     <option value="Великий новгород">Великий новгород</option>
-    </select></p>
-
-    <p><b>Коротко о себе:</b></p>
-    <p><textarea name="comment"></textarea></p>
-  
-
-    <p><b>Пол</b></p>
-    <p><input type="radio" name="answer" value="a1">мужской<Br>
-    <input type="radio" name="answer" value="a2">женский<Br>
-  
-
-    <p><strong>Любимые дисциплины</strong><br></p>
-  Для выбора нескольких дисциплин списка нажмите клавиши Ctrl и Shift совместно с курсором мыши(для mac os shift и option)
-    <p><select multiple size="5">
-      <option>английский язык</option>
-      <option>web программирование</option>
-      <option>высшая математика</option>
-      <option>физкультура</option>
+      <p><select size="5" multiple name="city[]">
+        <option disabled>Выберите город</option>
+        <option value="Москва">Москва</option>
+        <option selected value="Санкт-Петербург">Санкт-Петербург</option>
+        <option value="Мурманск">Мурманск</option>
+        <option value="Каллининград">Каллининград</option>
+        <option value="Великий новгород">Великий новгород</option>
       </select></p>
+
+      <p><b>Коротко о себе:</b></p>
+        <p><textarea name="comment"></textarea></p>
+  
+
+      <p><b>Пол</b></p>
+        <input type="radio" name="answer" value="a1">мужской<Br>
+        <input type="radio" name="answer" value="a2">женский<Br>
+  
+
+      <p><strong>Любимые дисциплины</strong><br></p>
+        Для выбора нескольких дисциплин списка нажмите клавиши Ctrl и Shift совместно с курсором мыши(для mac os shift и option)
+       <p><select multiple size="5">
+        <option>английский язык</option>
+        <option>web программирование</option>
+        <option>высшая математика</option>
+        <option>физкультура</option>
+        </select></p>
 
 
       <p>Что вам нравиться в вашей специальности?</p>
 
-      <p><input type="checkbox" name="variant" value="Перспективы высокой зарплаты"> Перспективы высокой зарплаты</p>
-      <p><input type="checkbox" name="variant" value="Программы делают жизнь лучше" > Программы делают жизнь лучше</p>
-      <p><input type="checkbox" name="variant" value="Обожаю матан и физику" > Обожаю матан и физику</p>
-      <p><input type="checkbox" name="variant" value="Люблю компы"> Люблю компы</p>
+        <p><input type="checkbox" name="variant" value="Перспективы высокой зарплаты"> Перспективы высокой зарплаты</p>
+        <p><input type="checkbox" name="variant" value="Программы делают жизнь лучше" > Программы делают жизнь лучше</p>
+        <p><input type="checkbox" name="variant" value="Обожаю матан и физику" > Обожаю матан и физику</p>
+        <p><input type="checkbox" name="variant" value="Люблю компы"> Люблю компы</p>
 
       <p>Предпочитаемые источники информации?</p>
 
-      <p><input type="checkbox" name="option" value="Книги"> Книги</p>
-      <p><input type="checkbox" name="option" value="Хабр" > Хабр</p>
-      <p><input type="checkbox" name="option" value="Секретный форум в даркнете" > Секретный форум в даркнете</p>
-      <p><input type="checkbox" name="option" value="YouTube"> YouTube</p>
-      <p><input type="checkbox" name="option" value="Спросить у специалиста"> Спросить у специалиста</p>
-      <p><input type="checkbox" name="option" value="У меня есть специальнообученный раб, который делает все за меня"> У меня есть специальнообученный раб, который делает все за меня</p>
+        <p><input type="checkbox" name="option" value="Книги"> Книги</p>
+        <p><input type="checkbox" name="option" value="Хабр" > Хабр</p>
+        <p><input type="checkbox" name="option" value="Секретный форум в даркнете" > Секретный форум в даркнете</p>
+        <p><input type="checkbox" name="option" value="YouTube"> YouTube</p>
+        <p><input type="checkbox" name="option" value="Спросить у специалиста"> Спросить у специалиста</p>
+        <p><input type="checkbox" name="option" value="У меня есть специальнообученный раб, который делает все за меня"> У меня есть специальнообученный раб, который делает все за меня</p>
 
-      <button type="reset">Сбросить</button>
+        <button type="reset">Сбросить</button>
       
-      <button type="submit">Подтвердить</button>
+        <button type="submit">Подтвердить</button>
     </form>
         <hr>
         <iframe width="1000" height="600" src="https://www.youtube.com/embed/VPDJXngp2bM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
